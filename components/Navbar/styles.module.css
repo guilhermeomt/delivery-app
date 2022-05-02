@@ -1,0 +1,20 @@
+.navbar  {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.input_search {
+  width: 100%;
+  max-width: 385px;
+  height: 3rem;
+  background: #f7f7f7;
+  outline: none;
+  border-radius: 10px;
+  @apply leading-6;
+}
