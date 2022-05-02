@@ -1,0 +1,53 @@
+.sidebar {
+  width: 100%;
+  min-height: 1024px;
+  max-width: 304px;
+  background-color: #f7f7f7 ;
+  border-radius: 0 1.5rem 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 2rem 2rem 3rem;
+}
+
+.header p {
+  color: #000;
+  @apply text-xl leading-6 font-bold;
+}
+
+.menu {
+  @apply grow;
+  padding: 0 0.93rem;
+}
+
+.menu li {
+  height: 3.5rem;
+  border-radius: 0.75rem;
+  @apply transition-all;
+}
+ 
+.menu li:hover,
+.active {
+  background-color: #503e9d;
+}
+
+.menu a {
+  display: flex;
+  padding: 1rem;
+  @apply font-bold text-base;
+}
+
+.menu span {
+  margin-right: 1.5rem;
+}
+
+.active a,
+.menu li:hover a {
+  color: #fff;
+}
+
+.footer {
+  padding: 2rem;
+}
