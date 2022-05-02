@@ -1,0 +1,15 @@
+.card {
+  width: 9.5rem;
+  height: 9.8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #e6e6e6;
+}
