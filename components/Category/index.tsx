@@ -1,4 +1,5 @@
 import React from "react";
+import { IconBase } from "..";
 import Styles from "./styles.module.css";
 
 type CategoryProps = {
@@ -10,7 +11,9 @@ type CategoryProps = {
 export function Category({ name, legend, iconName }: CategoryProps) {
   return (
     <div className={Styles.card}>
-      <div>{iconName}</div>
+      <div>
+        <IconBase iconName={iconName} />
+      </div>
       <h3>{name}</h3>
       <p>{legend}</p>
     </div>

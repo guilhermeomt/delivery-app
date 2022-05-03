@@ -5,3 +5,4 @@ export * from "./InputText";
 export * from "./Navbar";
 export * from "./PageHead";
 export * from "./Sidebar";
+export * from "./Icon";

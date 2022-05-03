@@ -15,9 +15,24 @@ export function Categories() {
       iconName: "bike",
     },
     {
-      name: "Alta Classe",
+      name: "Alta classe",
       legend: "+25 opções",
       iconName: "wallet",
+    },
+    {
+      name: "Jantar",
+      legend: "+182 opções",
+      iconName: "cutlery",
+    },
+    {
+      name: "Retirada",
+      legend: "+3542 opções",
+      iconName: "store",
+    },
+    {
+      name: "Mais próximo",
+      legend: "+55 opções",
+      iconName: "map",
     },
   ];
 
