@@ -9,12 +9,17 @@
 }
 
 .header {
-  padding: 2rem 2rem 3rem;
+  display: flex;
+  align-items: center;
+  @apply flex items-center p-8 pb-[3.00125rem];
 }
 
-.header p {
+.header h3 {
+  margin-left: 8px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700;
   color: #000;
-  @apply text-xl leading-6 font-bold;
 }
 
 .menu {

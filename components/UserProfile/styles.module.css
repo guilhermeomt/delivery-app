@@ -1,0 +1,33 @@
+.user_profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user_data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.user_data > h3 {
+  align-self: flex-start;
+  font-size: 0.87rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.user_data > p {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #626264;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

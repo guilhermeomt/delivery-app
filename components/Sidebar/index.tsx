@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
+import { IconBase, UserProfile } from "..";
 import Styles from "./styles.module.css";
 
 export function Sidebar() {
@@ -7,16 +9,21 @@ export function Sidebar() {
     <div>
       <div className={Styles.sidebar}>
         <div className={Styles.header}>
-          <p>
-            <span>[icon]</span>
-            Nibble
-          </p>
+          <Image
+            src="/logo.png"
+            width={40}
+            height={32}
+            alt="Nibble Restaurantes"
+          />
+          <h3>Nibble</h3>
         </div>
         <ul className={Styles.menu}>
           <li className={Styles.active}>
             <Link href="/">
               <a>
-                <span>[icon]</span>
+                <span>
+                  <IconBase iconName="home" color="#fff" />
+                </span>
                 Home
               </a>
             </Link>
@@ -24,41 +31,56 @@ export function Sidebar() {
           <li>
             <Link href="/">
               <a>
-                <span>[icon]</span>Explorar
+                <span>
+                  <IconBase iconName="feed" color="#a3a3a4" />
+                </span>
+                Explorar
               </a>
             </Link>
           </li>
           <li>
             <Link href="/">
               <a>
-                <span>[icon]</span> Favoritos
+                <span>
+                  <IconBase iconName="bookmark" color="#a3a3a4" />
+                </span>
+                Favoritos
               </a>
             </Link>
           </li>
           <li>
             <Link href="/">
               <a>
-                <span>[icon]</span>Pedidos
+                <span>
+                  <IconBase iconName="document" color="#a3a3a4" />
+                </span>
+                Pedidos
               </a>
             </Link>
           </li>
           <li>
             <Link href="/">
               <a>
-                <span>[icon]</span>Mensagens
+                <span>
+                  <IconBase iconName="letter" color="#a3a3a4" />
+                </span>
+                Mensagens
               </a>
             </Link>
           </li>
           <li>
             <Link href="/">
               <a>
-                <span>[icon]</span>Configurações
+                <span>
+                  <IconBase iconName="gear" color="#a3a3a4" />
+                </span>
+                Configurações
               </a>
             </Link>
           </li>
         </ul>
         <div className={Styles.footer}>
-          <div>componente usuário</div>
+          <UserProfile />
         </div>
       </div>
     </div>

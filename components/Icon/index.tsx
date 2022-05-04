@@ -1,8 +1,15 @@
 import { IconProps } from "types";
 import {
+  IconArrowTopDown,
   IconBicycle,
+  IconBookmark,
   IconCutlery,
+  IconDocument,
+  IconFeed,
   IconFire,
+  IconGear,
+  IconHome,
+  IconMail,
   IconMap,
   IconStore,
   IconWallet,
@@ -30,6 +37,20 @@ export const IconBase = ({
       return <IconStore size={size} color={color} />;
     case "cutlery":
       return <IconCutlery size={size} color={color} />;
+    case "home":
+      return <IconHome size={size} color={color} />;
+    case "bookmark":
+      return <IconBookmark size={size} color={color} />;
+    case "feed":
+      return <IconFeed size={size} color={color} />;
+    case "document":
+      return <IconDocument size={size} color={color} />;
+    case "letter":
+      return <IconMail size={size} color={color} />;
+    case "gear":
+      return <IconGear size={size} color={color} />;
+    case "arrow-top-down":
+      return <IconArrowTopDown size={size} color={color} />;
     default:
       return null;
   }
