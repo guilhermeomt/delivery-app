@@ -8,31 +8,37 @@ export function Categories() {
       name: "Popular",
       legend: "+286 opções",
       iconName: "fire",
+      backgroundColor: "#fb6d3a",
     },
     {
       name: "Delivery",
-      legend: "+1856 opções",
+      legend: "+1.856 opções",
       iconName: "bike",
+      backgroundColor: "#503e9d",
     },
     {
       name: "Alta classe",
       legend: "+25 opções",
       iconName: "wallet",
+      backgroundColor: "#facd5d",
     },
     {
       name: "Jantar",
       legend: "+182 opções",
       iconName: "cutlery",
+      backgroundColor: "#fb6d3a",
     },
     {
       name: "Retirada",
-      legend: "+3542 opções",
+      legend: "+3.542 opções",
       iconName: "store",
+      backgroundColor: "#503e9d",
     },
     {
-      name: "Mais próximo",
+      name: "Mais próximos",
       legend: "+55 opções",
       iconName: "map",
+      backgroundColor: "#facd5d",
     },
   ];
 
@@ -44,7 +50,7 @@ export function Categories() {
           <a href="">Ver todas</a>
         </Link>
       </div>
-      <div className="flex gap-6">
+      <div className="flex gap-6 justify-between">
         {categories.map((category) => (
           <Category key={category.name} {...category} />
         ))}

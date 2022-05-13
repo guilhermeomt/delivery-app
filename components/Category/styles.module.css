@@ -1,6 +1,6 @@
 .card {
-  width: 9.5rem;
-  height: 9.8rem;
+  width: 100%;
+  height: 152px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -12,4 +12,31 @@
 
 .card:hover {
   background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.card h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #182135;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: #626264;
+  font-weight: 400;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 9px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
