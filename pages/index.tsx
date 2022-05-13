@@ -3,6 +3,7 @@ import {
   Highlights,
   Navbar,
   PageHead,
+  Foods,
   Sidebar,
 } from "@/components";
 import type { NextPage } from "next";
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
           <Navbar />
           <Categories />
           <Highlights />
+          <Foods />
         </div>
       </div>
     </>

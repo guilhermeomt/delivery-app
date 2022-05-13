@@ -68,7 +68,7 @@ export function Highlights() {
   ];
 
   return (
-    <div>
+    <div className="mb-12">
       <div className={Styles.header}>
         <div className="flex flex-col justify-center items-center"></div>
         <h2>Destaques</h2>

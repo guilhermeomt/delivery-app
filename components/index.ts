@@ -9,3 +9,6 @@ export * from "./Sidebar";
 export * from "./Icon";
 export * from "./UserProfile";
 export * from "./HighlightsItem";
+export * from "./Foods";
+export * from "./FoodItem";
+export * from "./ItemDetails";

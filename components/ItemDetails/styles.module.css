@@ -1,0 +1,22 @@
+.info {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #626264;
+  margin-left: 10px;
+}
+
+.info svg {
+  margin-right: 8px;
+}
+
+.info:first-child {
+  margin-left: 0;
+}
+
+.info span {
+  font-weight: 600;
+  margin-right: 5px;
+  color: #182135;
+}
