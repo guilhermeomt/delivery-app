@@ -3,6 +3,7 @@ import {
   IconArrowTopDown,
   IconBicycle,
   IconBookmark,
+  IconChevronRight,
   IconCutlery,
   IconDocument,
   IconFeed,
@@ -51,6 +52,8 @@ export const IconBase = ({
       return <IconGear size={size} color={color} />;
     case "arrow-top-down":
       return <IconArrowTopDown size={size} color={color} />;
+    case "chevron-right":
+      return <IconChevronRight size={size} color={color} />;
     default:
       return null;
   }

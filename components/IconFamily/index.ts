@@ -11,3 +11,4 @@ export * from "./IconBookmark";
 export * from "./IconMail";
 export * from "./IconGear";
 export * from "./IconArrowTopDown";
+export * from "./IconChevronRight";

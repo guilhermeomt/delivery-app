@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { Category } from "..";
+import { Category, IconBase } from "..";
+import Styles from "./styles.module.css";
 
 export function Categories() {
   const categories = [
@@ -43,11 +44,14 @@ export function Categories() {
   ];
 
   return (
-    <>
-      <div className="flex">
+    <div className="mb-12">
+      <div className={Styles.header}>
         <h2 className="grow">Explorar Categorias</h2>
         <Link href="/categories">
-          <a href="">Ver todas</a>
+          <a>
+            Ver todas
+            <IconBase iconName="chevron-right" color="#5b4aa3" size={12} />
+          </a>
         </Link>
       </div>
       <div className="flex gap-6 justify-between">
@@ -55,6 +59,6 @@ export function Categories() {
           <Category key={category.name} {...category} />
         ))}
       </div>
-    </>
+    </div>
   );
 }
