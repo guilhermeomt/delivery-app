@@ -8,3 +8,4 @@ export * from "./PageHead";
 export * from "./Sidebar";
 export * from "./Icon";
 export * from "./UserProfile";
+export * from "./HighlightsItem";

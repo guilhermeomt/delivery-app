@@ -1,6 +1,6 @@
 import {
   Categories,
-  // Highlights,
+  Highlights,
   Navbar,
   PageHead,
   Sidebar,
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <div className="grow p-8">
           <Navbar />
           <Categories />
-          {/* <Highlights /> */}
+          <Highlights />
         </div>
       </div>
     </>

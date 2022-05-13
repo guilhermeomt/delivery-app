@@ -1,0 +1,54 @@
+.restaurant {
+  display: flex;
+  width: 100%;
+  max-width: 360px;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  width: 96px;
+  height: 96px;
+  margin-right: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+}
+
+.info div svg {
+  margin-right: 8px;
+}
+
+.info div div {
+  text-align: left;
+  margin-left: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #626264;
+}
+
+.info span {
+  font-weight: 700;
+  margin-right: 5px;
+  color: #182135;
+}
+
+.info div div:first-child {
+  margin-left: 0px;
+}
+
+.info h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}

@@ -12,7 +12,10 @@ import {
   IconHome,
   IconMail,
   IconMap,
+  IconMoney,
+  IconStar,
   IconStore,
+  IconTargetLocation,
   IconWallet,
 } from "../IconFamily";
 
@@ -54,6 +57,12 @@ export const IconBase = ({
       return <IconArrowTopDown size={size} color={color} />;
     case "chevron-right":
       return <IconChevronRight size={size} color={color} />;
+    case "star":
+      return <IconStar size={size} color={color} />;
+    case "money":
+      return <IconMoney size={size} color={color} />;
+    case "target-location":
+      return <IconTargetLocation size={size} color={color} />;
     default:
       return null;
   }

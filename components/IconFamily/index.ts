@@ -12,3 +12,6 @@ export * from "./IconMail";
 export * from "./IconGear";
 export * from "./IconArrowTopDown";
 export * from "./IconChevronRight";
+export * from "./IconStar";
+export * from "./IconMoney";
+export * from "./IconTargetLocation";
