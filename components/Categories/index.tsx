@@ -47,7 +47,7 @@ export function Categories() {
     <div className="mb-12">
       <div className={Styles.header}>
         <h2 className="grow">Explorar Categorias</h2>
-        <Link href="/categories">
+        <Link href="/categories/1">
           <a>
             Ver todas
             <IconBase iconName="chevron-right" color="#5b4aa3" size={12} />

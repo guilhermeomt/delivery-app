@@ -53,7 +53,7 @@ const BonusComponent = (bonus: string) => (
 const DistanceComponent = (distance: string) => (
   <div className={Styles.info}>
     <IconBase iconName="target-location" size={16} color="#a3a3a4" />
-    {distance} km
+    {distance}
   </div>
 );
 

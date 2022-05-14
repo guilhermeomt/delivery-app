@@ -17,7 +17,7 @@ export function Category({
   backgroundColor,
 }: CategoryProps) {
   return (
-    <Link href="/categoria" passHref>
+    <Link href="/categories/1" passHref>
       <div className={Styles.card}>
         <div className={Styles.icon} style={{ backgroundColor }}>
           <IconBase iconName={iconName} color="#fff" />
