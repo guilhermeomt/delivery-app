@@ -6,14 +6,14 @@ export default function Categories({ id }: CategoriesProps) {
   return (
     <>
       <PageHead
-        title="Categorias"
+        title={`${id} - Categorias`}
         description="Página de categorias do Nibble Restaurantes"
       />
       <div className="container m-auto flex">
         <Sidebar />
         <div className="grow p-8">
           <Navbar />
-          <Highlights />
+          <Highlights title="Restaurantes mais próximos" />
         </div>
       </div>
     </>

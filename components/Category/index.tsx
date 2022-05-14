@@ -4,6 +4,7 @@ import { IconBase } from "..";
 import Styles from "./styles.module.css";
 
 type CategoryProps = {
+  id: string;
   name: string;
   legend: string;
   iconName: string;
@@ -11,13 +12,14 @@ type CategoryProps = {
 };
 
 export function Category({
+  id,
   name,
   legend,
   iconName,
   backgroundColor,
 }: CategoryProps) {
   return (
-    <Link href="/categories/1" passHref>
+    <Link href={`/categories/${id}`} passHref>
       <div className={Styles.card}>
         <div className={Styles.icon} style={{ backgroundColor }}>
           <IconBase iconName={iconName} color="#fff" />

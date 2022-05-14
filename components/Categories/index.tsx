@@ -6,36 +6,42 @@ import Styles from "./styles.module.css";
 export function Categories() {
   const categories = [
     {
+      id: "1",
       name: "Popular",
       legend: "+286 opções",
       iconName: "fire",
       backgroundColor: "#fb6d3a",
     },
     {
+      id: "2",
       name: "Delivery",
       legend: "+1.856 opções",
       iconName: "bike",
       backgroundColor: "#503e9d",
     },
     {
+      id: "3",
       name: "Alta classe",
       legend: "+25 opções",
       iconName: "wallet",
       backgroundColor: "#facd5d",
     },
     {
+      id: "4",
       name: "Jantar",
       legend: "+182 opções",
       iconName: "cutlery",
       backgroundColor: "#fb6d3a",
     },
     {
+      id: "5",
       name: "Retirada",
       legend: "+3.542 opções",
       iconName: "store",
       backgroundColor: "#503e9d",
     },
     {
+      id: "6",
       name: "Mais próximos",
       legend: "+55 opções",
       iconName: "map",

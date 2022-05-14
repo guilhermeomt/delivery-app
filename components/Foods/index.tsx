@@ -5,6 +5,7 @@ import Styles from "./styles.module.css";
 export function Foods() {
   const foods = [
     {
+      id: "1",
       name: "Gigantic Rodeo Burger",
       imageUrl: "/foods/burger.jpg",
       deliveryFee: "Entrega grátis",
@@ -14,6 +15,7 @@ export function Foods() {
       deliveryTime: "30 min - 45 min",
     },
     {
+      id: "2",
       name: "Pizza de Queijo Deliciosa",
       imageUrl: "/foods/pizza.jpg",
       deliveryFee: "R$ 3,00 de entrega",
@@ -23,6 +25,7 @@ export function Foods() {
       deliveryTime: "25 min - 35 min",
     },
     {
+      id: "3",
       name: "Espetos de Legumes",
       imageUrl: "/foods/vegan.jpg",
       deliveryFee: "R$ 4,00 de entrega",
@@ -32,6 +35,7 @@ export function Foods() {
       deliveryTime: "15 min - 25 min",
     },
     {
+      id: "4",
       name: "Pizza de Pepperoni",
       imageUrl: "/foods/pizza-peperoni.jpg",
       deliveryFee: "R$ 1,00 de entrega",
@@ -41,6 +45,7 @@ export function Foods() {
       deliveryTime: "50 min - 55 min",
     },
     {
+      id: "5",
       name: "Chef’s Burger Deluxe",
       imageUrl: "/foods/chef-burger.jpg",
       deliveryFee: "Entrega grátis",
@@ -50,6 +55,7 @@ export function Foods() {
       deliveryTime: "35 min - 45 min",
     },
     {
+      id: "6",
       name: "Arroz Natural de Legumes",
       imageUrl: "/foods/vegetable.jpg",
       deliveryFee: "R$ 5,00 de entrega",

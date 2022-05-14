@@ -3,9 +3,14 @@ import React from "react";
 import { HighlightsItem, IconBase } from "..";
 import Styles from "./styles.module.css";
 
-export function Highlights() {
+type HighlightsProps = {
+  title?: string;
+};
+
+export function Highlights({ title }: HighlightsProps) {
   const highlights = [
     {
+      id: "1",
       name: "Burger King",
       brandUrl: "/brands/burger-king.svg",
       rating: 4.5,
@@ -16,6 +21,7 @@ export function Highlights() {
       distance: 4.3,
     },
     {
+      id: "2",
       name: "McDonalds",
       brandUrl: "/brands/mcdonalds.svg",
       rating: 4.5,
@@ -26,6 +32,7 @@ export function Highlights() {
       distance: 5,
     },
     {
+      id: "3",
       name: "Domino's Pizza",
       brandUrl: "/brands/dominos-pizza.svg",
       rating: 5,
@@ -36,6 +43,7 @@ export function Highlights() {
       distance: 2.2,
     },
     {
+      id: "4",
       name: "Pizza Hut",
       brandUrl: "/brands/pizza-hut.svg",
       rating: 5,
@@ -46,6 +54,7 @@ export function Highlights() {
       distance: 6.5,
     },
     {
+      id: "5",
       name: "Carrows Restaurant",
       brandUrl: "/brands/carrows-restaurant.svg",
       rating: 5,
@@ -56,6 +65,7 @@ export function Highlights() {
       distance: 8.3,
     },
     {
+      id: "6",
       name: "KFC",
       brandUrl: "/brands/kfc.svg",
       rating: 4.4,
@@ -71,7 +81,7 @@ export function Highlights() {
     <div className="mb-12">
       <div className={Styles.header}>
         <div className="flex flex-col justify-center items-center"></div>
-        <h2>Destaques</h2>
+        <h2>{title ? title : "Destaques"}</h2>
         <Link href="/destaques">
           <a>
             Ver todos
