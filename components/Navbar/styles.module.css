@@ -1,20 +1,60 @@
-.navbar  {
+.navbar {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3rem;
 }
 
-.list {
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li {
   display: flex;
   align-items: center;
 }
 
-.input_search {
-  width: 100%;
-  max-width: 385px;
+.nav a {
+  display: flex;
+  align-items: center;
+}
+
+.nav a svg:first-child {
+  margin-right: 1rem;
+}
+
+.nav a svg:last-child {
+  margin-left: 0.5rem;
+}
+
+.filter_button,
+.cart_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
   height: 3rem;
-  background: #f7f7f7;
-  outline: none;
   border-radius: 10px;
-  @apply leading-6;
+  outline: none;
+  border: 1px solid #f7f7f7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter_button {
+  background: #503e9d;
+}
+
+.cart_button {
+  background: #fb6d3a;
+}
+
+.filter_button:hover {
+  background: #503e9d;
+  border: 1px solid #503e9d;
+}
+
+.cart_button:hover {
+  background: #fb6d3a;
+  border: 1px solid #fb6d3a;
 }

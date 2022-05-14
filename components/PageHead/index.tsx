@@ -3,7 +3,7 @@ import React from "react";
 
 type PageHeadProps = {
   title: string;
-  description: string;
+  description?: string;
   keywords?: string;
 };
 

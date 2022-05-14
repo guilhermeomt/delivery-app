@@ -4,15 +4,20 @@ import {
   IconBicycle,
   IconBookmark,
   IconChevronRight,
+  IconCoupon,
   IconCutlery,
   IconDocument,
   IconFeed,
+  IconFilter,
   IconFire,
   IconGear,
   IconHome,
   IconMail,
   IconMap,
   IconMoney,
+  IconSearch,
+  IconShoppingBag,
+  IconShoppingCart,
   IconStar,
   IconStore,
   IconTargetLocation,
@@ -63,6 +68,16 @@ export const IconBase = ({
       return <IconMoney size={size} color={color} />;
     case "target-location":
       return <IconTargetLocation size={size} color={color} />;
+    case "shopping-bag":
+      return <IconShoppingBag size={size} color={color} />;
+    case "shopping-cart":
+      return <IconShoppingCart size={size} color={color} />;
+    case "coupon":
+      return <IconCoupon size={size} color={color} />;
+    case "filter":
+      return <IconFilter size={size} color={color} />;
+    case "search":
+      return <IconSearch size={size} color={color} />;
     default:
       return null;
   }

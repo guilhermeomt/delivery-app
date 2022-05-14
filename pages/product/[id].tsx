@@ -1,22 +1,15 @@
-import { FoodItem, Highlights, Navbar, PageHead, Sidebar } from "@/components";
+import { FoodItem, PageTemplate } from "@/components";
 import { GetServerSideProps } from "next";
 import { ProductProps } from "./types";
 
 export default function Product({ id, product }: ProductProps) {
   return (
-    <>
-      <PageHead
-        title={`${product.name} - Restaurante XPTO`}
-        description={`Descrição do ${product.name} no Restaurante XPTO`}
-      />
-      <div className="container m-auto flex">
-        <Sidebar />
-        <div className="grow p-8">
-          <Navbar />
-          <FoodItem {...product} />
-        </div>
-      </div>
-    </>
+    <PageTemplate
+      title={`${product.name} - Restaurante XPTO`}
+      description={`Descrição do ${product.name} no Restaurante XPTO`}
+    >
+      <FoodItem {...product} />
+    </PageTemplate>
   );
 }
 

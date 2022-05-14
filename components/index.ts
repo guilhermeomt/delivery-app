@@ -12,3 +12,5 @@ export * from "./HighlightsItem";
 export * from "./Foods";
 export * from "./FoodItem";
 export * from "./ItemDetails";
+export * from "./SearchBar";
+export * from "./PageTemplate";

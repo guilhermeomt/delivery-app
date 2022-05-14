@@ -15,3 +15,8 @@ export * from "./IconChevronRight";
 export * from "./IconStar";
 export * from "./IconMoney";
 export * from "./IconTargetLocation";
+export * from "./IconShoppingBag";
+export * from "./IconShoppingCart";
+export * from "./IconCoupon";
+export * from "./IconFilter";
+export * from "./IconSearch";
