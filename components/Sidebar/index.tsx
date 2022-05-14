@@ -29,7 +29,7 @@ export function Sidebar() {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/explore">
               <a>
                 <span>
                   <IconBase iconName="feed" color="#a3a3a4" />
