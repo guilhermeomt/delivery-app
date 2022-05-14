@@ -1,0 +1,12 @@
+.modal {
+  @apply block;
+}
+
+.overlay {
+  @apply top-0 fixed w-screen h-screen z-40 bg-black opacity-80;
+}
+
+.content {
+  @apply fixed top-0 right-0 w-1/3 z-50 h-screen;
+  @apply bg-white p-6 rounded-tl-3xl rounded-bl-3xl;
+}

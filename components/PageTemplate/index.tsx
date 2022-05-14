@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, PageHead, Sidebar } from "..";
+import { FilterModal, Navbar, PageHead, Sidebar } from "..";
 
 type PageTemplateProps = {
   children: React.ReactNode | React.ReactNode[];
@@ -17,6 +17,7 @@ export const PageTemplate = ({
   return (
     <>
       <PageHead title={title} description={description} keywords={keywords} />
+      <FilterModal />
       <div className="container m-auto flex">
         <Sidebar />
         <div className="grow p-8">

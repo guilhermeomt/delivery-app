@@ -14,3 +14,4 @@ export * from "./FoodItem";
 export * from "./ItemDetails";
 export * from "./SearchBar";
 export * from "./PageTemplate";
+export * from "./FilterModal";

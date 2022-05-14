@@ -1,9 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import { IconBase, SearchBar } from "..";
+import { useFilter } from "stores";
 import Styles from "./styles.module.css";
 
 export function Navbar() {
+  const { toggleModal } = useFilter((store) => store);
+
   return (
     <div className={Styles.navbar}>
       <ul className={Styles.nav}>
@@ -37,7 +40,7 @@ export function Navbar() {
       </ul>
       <SearchBar />
       <div className="flex gap-4">
-        <button className={Styles.filter_button}>
+        <button className={Styles.filter_button} onClick={toggleModal}>
           <IconBase iconName="filter" size={20} color="#fff" />
         </button>
         <button className={Styles.cart_button}>
